@@ -1,10 +1,11 @@
+"use strict";
+
 /*var x = "hello world ";
 document.write(x);
 document.write(x);
 document.write(x);*/
 // let x = 25
 // x = 26
-
 // document.write(x)
 // const x = 45
 // document.write(x)
@@ -62,7 +63,6 @@ document.write(x);*/
 //         document.write("good night")
 // }
 // ab if else ka use in real life for markes level
-
 // var per = 105
 // if(per >=90 && per <100){
 //         document.write("you got gold medal")
@@ -81,17 +81,19 @@ document.write(x);*/
 // var b;
 // b = "value is" + (a >55? "true":"false")
 // document.write(b);
+var age = 22;
 
-var age = 22
 switch (true) {
-        case (age>= 15 && age <= 20):
-               document.write("you are elligible") 
-                break;
-                case (age >=21 && age <=26):
-               document.write("you are not elligible") 
-                break;
+  case age >= 15 && age <= 20:
+    document.write("you are elligible");
+    break;
 
-        default:
-                document.write("enter a valid age")
-                break;
+  case age >= 21 && age <= 26:
+    document.write("you are not elligible");
+    break;
+
+  default:
+    document.write("enter a valid age");
+    break;
 }
+//# sourceMappingURL=index.dev.js.map
